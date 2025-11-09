@@ -1,0 +1,24 @@
+{
+  "feature_names": [
+    "Cycle_Index",
+    "Discharge Time (s)",
+    "Decrement 3.6-3.4V (s)",
+    "Max. Voltage Dischar. (V)",
+    "Min. Voltage Charg. (V)",
+    "Time at 4.15V (s)",
+    "Time constant current (s)",
+    "Charging time (s)",
+    "Exp_Time",
+    "Exp_Current",
+    "Exp_Voltage",
+    "Exp_Temperature"
+  ],
+  "target_name": "RUL",
+  "model_name": "XGBoost",
+  "model_metrics": {
+    "MAE": 1.278605580329895,
+    "MSE": 2.718688488006592,
+    "RMSE": 1.6488445918298642,
+    "R\u00b2": 0.9999737739562988
+  }
+}
